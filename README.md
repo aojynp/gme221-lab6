@@ -1,9 +1,17 @@
 Laboratory 6
 GeoAI: Spatial Prediction Using Parcel-Based Feature Engineering 
 
+--------
 OVERVIEW
+--------
+
+---------------
 EXPECTED OUTPUTS
+----------------
+
+------------------
 COMMIT MILESTONES:
+------------------
 A. Data Loading Reflection 
 1. Why are parcels the prediction unit?
     Parcels are considered the most reliable unit of prediction in urban planning and GIS because they embody the very foundation of land management in which represents the legal, economic, and administrative identity of a piece of land. Parcels are also the basis for decisions about ownership, taxation, zoning, and development. Hence, planners and analysts can directly connect spatial data to real-world governance. Parcels serve as the bridge between spatial analysis and the lived realities of land use, ensuring that predictions and policies are grounded in the actual divisions that shape urban growth and community management.
@@ -33,8 +41,9 @@ C. Model Reflection
 
 9. Can a model have high accuracy but poor spatial interpretation? 
     Yes, a model may achieve high numerical accuracy yet still fail to capture the spatial processes underlying its predictions. It might correctly classify parcels but overlook geographic patterns, local variations, or clustering effects that are critical for spatial analysis. In such cases, accuracy alone can be misleading, as it does not guarantee that the model reflects the true spatial dynamics of the study area.
-    
-10. What features may improve the model? 
+
+10. What features may improve the model?
+    Additional spatial features that could strengthen the model include neighboring parcel density, the number of schools within a defined distance (e.g., 500 m), proximity to different road classes, tourism site density, land-use diversity around each parcel, distance to commercial centers, population density, and access to public transportation. These variables provide richer context about the parcel’s surrounding environment. By incorporating these, the model gains a deeper understanding of how accessibility, services, and land-use interactions shape development. This added detail can improve its ability to recognize meaningful spatial patterns and produce more accurate parcel classifications.
 
 D. Spatial Misclassification 
 Interpret: 
