@@ -4,10 +4,16 @@ GeoAI: Spatial Prediction Using Parcel-Based Feature Engineering
 --------
 OVERVIEW
 --------
+This laboratory introduces GeoAI-based spatial prediction by integrating traditional GIS methods with machine learning. Parcel polygons serve as the prediction units, with spatial relationships transformed into numerical features for analysis. Using tools like GeoPandas, Scikit-learn, NumPy, Matplotlib, and QGIS, it allows to engineer spatial features, train a Random Forest model, and evaluate accuracy. The workflow demonstrates how geometry, accessibility, environment, and land-use context can be converted into explanatory variables for predictive analysis.
 
 ---------------
 EXPECTED OUTPUTS
 ----------------
+a. Engineered spatial features (area, perimeter, compactness, and distance-based variables).
+b. A trained GeoAI classification model for parcel prediction.
+c. Model evaluation using accuracy metrics.
+d. Predicted parcel classifications stored in a GeoJSON file.
+e. Visualization and interpretation of prediction results in QGIS.
 
 ------------------
 COMMIT MILESTONES:
