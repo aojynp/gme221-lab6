@@ -158,3 +158,15 @@ print(
         ] 
     ].head() 
 )
+
+data = data.drop( 
+    columns=["centroid"], 
+    errors="ignore" 
+)
+
+# export to geojson 
+data.to_file( 
+    "output/parcel_geoai_prediction.geojson", 
+    driver="GeoJSON" 
+) 
+print("GeoAI output exported.") 
